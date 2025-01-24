@@ -111,8 +111,7 @@ const Meet = () => <h2>How's it going?</h2>;
 const ReactRoot = ReactDOM.createRoot(document.getElementById("root"));
 ReactRoot.render(
    <>
-      <Greet />
-      <Meet />
+      {Greet()} {Meet()}
    </>
 );
 ```
